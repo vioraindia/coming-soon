@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   title: "Viora India",
   description: "Coming soon",
   metadataBase: new URL(
-    process.env.NEXT_PUBIC_BASE_URL || "https://www.vioraindia.in"
+    process.env.NEXT_PUBIC_BASE_URL || "https://www.vioraindia.com"
   ),
   openGraph: {
     images: `/og.jpg`,
     title: "Viora India",
     description: "Coming soon",
-    url: new URL(process.env.NEXT_PUBIC_BASE_URL || "https://www.vioraindia.in"),
+    url: new URL(process.env.NEXT_PUBIC_BASE_URL || "https://www.vioraindia.com"),
     type: "website",
     siteName: "Viora India",
   },
